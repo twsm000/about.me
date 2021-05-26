@@ -20,7 +20,7 @@ gulp.task('server', ['sass', 'watch'], function () {
 	gulp.src('.').pipe(
 		webserver(
 			{
-				port: 4200,
+				port: 4200,	
 				livereload: true,
 				directoryListing: false,
 				open: true
